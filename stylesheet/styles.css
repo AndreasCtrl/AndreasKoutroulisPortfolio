@@ -1,123 +1,3 @@
-/* @-webkit-keyframes change {
-	0% {
-		background-position: 0 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0 50%;
-	}
-}
-
-@keyframes change {
-	0% {
-		background-position: 0 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0 50%;
-	}
-} */
-/* 
-@-webkit-keyframes blink {
-	0% {
-		background-color: #fffffe;
-	}
-	49% {
-		background-color: #fffffe;
-	}
-	50% {
-		background-color: transparent;
-	}
-	99% {
-		background-color: transparent;
-	}
-	100% {
-		background-color: #fffffe;
-	}
-}
-
-@keyframes blink {
-	0% {
-		background-color: #fffffe;
-	}
-	49% {
-		background-color: #fffffe;
-	}
-	50% {
-		background-color: transparent;
-	}
-	99% {
-		background-color: transparent;
-	}
-	100% {
-		background-color: #fffffe;
-	}
-}
-
-@-webkit-keyframes blinkLight {
-	0% {
-		background-color: #272346;
-	}
-	49% {
-		background-color: #272346;
-	}
-	50% {
-		background-color: transparent;
-	}
-	99% {
-		background-color: transparent;
-	}
-	100% {
-		background-color: #272346;
-	}
-}
-
-@keyframes blinkLight {
-	0% {
-		background-color: #272346;
-	}
-	49% {
-		background-color: #272346;
-	}
-	50% {
-		background-color: transparent;
-	}
-	99% {
-		background-color: transparent;
-	}
-	100% {
-		background-color: #272346;
-	}
-}
-
-@-webkit-keyframes arrow {
-	0% {
-		top: 0%;
-	}
-	50% {
-		top: 20%;
-	}
-	100% {
-		top: 0%;
-	}
-}
-
-@keyframes arrow {
-	0% {
-		top: 0%;
-	}
-	50% {
-		top: 20%;
-	}
-	100% {
-		top: 0%;
-	}
-} */
-
 h1 {
 	font-size: 3.7rem;
 	font-weight: 400;
@@ -145,7 +25,7 @@ h2 {
 h2:before,
 h2:after {
 	content: "";
-	border-top: 1px solid #473b96;
+	border-top: 1px solid #7f7faf;
 	margin: 0 30px 0 0;
 	-webkit-box-flex: 1;
 	-ms-flex: 1 0 20px;
@@ -632,14 +512,10 @@ header .landing .sub-heading .cursor.typing {
 }
 
 .projects .card-container .card-flip .front {
-	-ms-grid-row: 1;
-	-ms-grid-column: 1;
 	grid-area: frontAndBack;
 }
 
 .projects .card-container .card-flip .back {
-	-ms-grid-row: 1;
-	-ms-grid-column: 1;
 	grid-area: frontAndBack;
 	-webkit-transform: rotateY(-180deg);
 	transform: rotateY(-180deg);
